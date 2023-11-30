@@ -1,0 +1,51 @@
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(0,200,149);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.todoText {
+  max-width: 70%;
+  text-align: left;
+}
+
+.faTrash, .faStar, .faArrowDownShortWide {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: gold;
+  text-decoration: line-through;
+}
+ 
+.important {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+svg {
+  width: 20px;
+  height: auto;
+}
+
+@media (min-width: 30px) and (max-width: 576px) {
+  svg {
+    width: 14px;
+    height: auto;
+  }
+}
